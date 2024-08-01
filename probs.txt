@@ -1,2 +1,6 @@
 30 jul 
     swap code without thrid variable 
+
+1 aug 
+    swap code without thrid variable for float vars 
+    
