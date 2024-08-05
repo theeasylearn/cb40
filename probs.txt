@@ -6,4 +6,10 @@
 
 2 aug 
     split.c -> hint -> use +, -, *, /, % 
+
+5 aug 
+    check if given number is +ve or -ve     
+        num = 10 -> print "num is +ve "
+        num = -132 -> print "num is -ve "
+        num = 0 -> print "0 is neither +ve nor -ve "
     
