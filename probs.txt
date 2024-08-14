@@ -11,3 +11,6 @@
     absolute -> opposite 
     -ve -> -ve 
     +ve -> -ve 
+
+14 aug  
+    greatestOfThreeNums.c -> using && and || oprs 
