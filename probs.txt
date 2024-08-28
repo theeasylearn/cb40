@@ -14,3 +14,7 @@
 
 14 aug  
     greatestOfThreeNums.c -> using && and || oprs 
+
+27 aug 
+    nToN.c -> swap logic -> start < end -> swap 
+    print multiplication table of 4 to 10
