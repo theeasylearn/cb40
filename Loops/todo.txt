@@ -1,0 +1,14 @@
+    3 12 48 ... 
+    4 7 10 ... 
+    1to100even
+
+    sumOfFirstN
+factOfFirstN
+
+guessTheNum
+
+lengthOfNum 
+sumOfDigit
+productOfDigit
+reverseOfInt 
+
