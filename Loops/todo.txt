@@ -3,7 +3,7 @@
     1to100even
 
     sumOfFirstN
-factOfFirstN
+    factOfFirstN
 
 guessTheNum
 
