@@ -5,7 +5,7 @@
     sumOfFirstN
     factOfFirstN
 
-guessTheNum
+    guessTheNum
 
 lengthOfNum 
 sumOfDigit

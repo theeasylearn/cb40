@@ -21,3 +21,6 @@
 
 30 aug 
     guessTheNum -> for 
+
+2 sep 
+    lengthOfNum -> using for loop 
