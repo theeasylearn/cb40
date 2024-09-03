@@ -7,8 +7,8 @@
 
     guessTheNum
 
-lengthOfNum 
-sumOfDigit
+    lengthOfNum 
+    sumOfDigit
 productOfDigit
 reverseOfInt 
 
