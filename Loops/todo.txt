@@ -9,6 +9,6 @@
 
     lengthOfNum 
     sumOfDigit
-productOfDigit
-reverseOfInt 
-
+    productOfDigit
+    reverseOfInt 
+pow     

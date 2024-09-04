@@ -1,20 +1,35 @@
 #include <stdio.h>
-void main() {
-    int num, count = 0;
 
-    printf("Enter an integer: ");
-    scanf("%d", &num);
+void main()
+{
+    int N = 20, num, digit;
+    int sumOddDigits = 0;
+    int sumEvenDigits = 0;
+    int i = 1;
 
-    // Using a for loop
-    for (;num != 0; num /= 10) {
-        count++;
+    while (i <= N) // 1 <= 20 -> t
+    {
+        num = i; // num = 1
+        while (num > 0)
+        {
+            digit = num % 10;
+            num /= 10;
+
+            if (digit % 2 == 0)
+            {
+                // Digit is even
+                sumEvenDigits += digit;
+            }
+            else
+            {
+                // Digit is odd
+                sumOddDigits += digit;
+            }
+        }
+        i++;
     }
-    printf("num = %d \n", num);
-    printf("Number of digits: %d\n", count);
+
+    // Print the results
+    printf("Sum of odd digits: %d\n", sumOddDigits);
+    printf("Sum of even digits: %d\n", sumEvenDigits);
 }
-
-
-
-// OutPut:
-// Enter an integer: 123
-// Number of digits: 3

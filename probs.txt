@@ -32,3 +32,6 @@
             evenSum = 2 + 4 + 6 + 8 + 10 
             oddSum = 1 + 3 + 5 + 7 + 9
         print (evenSum - oddSum)
+
+4 sep 
+    code -> pow.c 
