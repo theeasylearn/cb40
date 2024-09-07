@@ -11,4 +11,7 @@
     sumOfDigit
     productOfDigit
     reverseOfInt 
-pow     
+    pow     
+
+    ternary 
+operator, break, continue 
