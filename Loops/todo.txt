@@ -13,5 +13,5 @@
     reverseOfInt 
     pow     
 
-    ternary 
-operator, break, continue 
+    ternary
+break, continue 

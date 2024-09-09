@@ -35,3 +35,6 @@
 
 4 sep 
     code -> pow.c 
+
+9 sep 
+    guess the num using break stmt 

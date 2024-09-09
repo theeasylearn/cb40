@@ -2,6 +2,7 @@
     "files.associations": {
         "*.ejs": "html",
         "type_traits": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "stdbool.h": "c"
     }
 }
