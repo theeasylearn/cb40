@@ -41,3 +41,18 @@
     
 10 sep
     guess the num using break stmt 
+
+11 sep 
+    a b c d 
+    a b c d 
+    a b c d 
+    a b c d 
+
+    a b c d 
+    e f g h 
+    i j k l 
+    m n o p 
+
+    01 03 05
+    07 09 11
+    13 15 17
