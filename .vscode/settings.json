@@ -3,6 +3,7 @@
         "*.ejs": "html",
         "type_traits": "c",
         "stdlib.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "stdio.h": "c"
     }
 }
