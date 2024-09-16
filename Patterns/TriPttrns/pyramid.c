@@ -10,12 +10,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 void main() {
-    int height = 8;
-    // for (int i = 1; i <= height; i++) {
-    //     for (int j = height - 1; j >= i; j--) {
+    int height = 15;
+    // for (int row = 1; row <= height; row++) {
+    //     for (int sp = height - 1; sp >= row; sp--) {
     //         printf(" ");
     //     }
-    //     for (int k = 1; k <= i; k++) {
+    //     for (int str = 1; str <= row; str++) {
     //         printf("* ");
     //     }
     //     printf("\n");
@@ -23,15 +23,22 @@ void main() {
 
     int nsp1 = 0, nsp2, nsp3;
     bool is2ndLine = false;
-    for (int i = 1; i <= height; i++) {
-        for (int j = height - 1; j >= i; j--) {
+    for (int row = 1; row <= height; row++) {
+        for (int sp = height - 1; sp >= row; sp--) {
             printf(" ");
         }
-        for (int k = 1; k <= i; k++) {
-            if ((k == 2 || i == 7 || i - k == 1) && ( k != 1 && i != 8 && i != 2 && (i != 7 && k != 7) )) {
+        for (int str = 1; str <= row; str++) {
+            if (
+                (str == 2 || row == (height - 1) || row - str == 1)
+                && ((str != 1 && row != height && row != 2) 
+                     && (row != (height - 1) && str != (height - 1)))) {
                 printf("  ");
             } else {
-                printf("* ");
+                if (row == (height - 1) && (str >= 2 && str <= (height - 2))) {
+                    printf("  ");
+                } else{
+                    printf("* ");
+                }
             }
            
         }
