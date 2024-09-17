@@ -1,8 +1,12 @@
 #include <stdio.h>
 
+// int getSum(int number1, int number2) {
+//     int sum = number1 + number2;   
+//     return sum;
+// }
+
 int getSum(int number1, int number2) {
-    int sum = number1 + number2;   
-    return sum;
+    return number1 + number2;
 }
 
 int main() {    
