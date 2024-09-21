@@ -15,11 +15,15 @@ bool isPrime(int num) {
 }
 
 int main() {
-    int num;
-    printf("Enter a number : ");
-    scanf("%d", &num);
+    // ! start = 3 end = 9 -> 3 5 7 
+    int start, end;
+    printf("Enter start : ");
+    scanf("%d", &start);
 
-    for (int i = 1; i <= num; i++) {
+    printf("Enter end : ");
+    scanf("%d", &end);
+
+    for (int i = start; i <= end; i++) {
         if (isPrime(i)) {
             printf("%d ", i);
         }
