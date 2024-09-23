@@ -62,3 +62,6 @@
 
 17 sep
     isPrime for -ve input 
+
+23 sep  
+    product of all elements in an float array  
