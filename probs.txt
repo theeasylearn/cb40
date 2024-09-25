@@ -65,3 +65,6 @@
 
 23 sep  
     product of all elements in an float array  
+
+25 sep  
+    number of odd elems in an arr 
