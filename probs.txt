@@ -68,3 +68,7 @@
 
 25 sep  
     number of odd elems in an arr 
+
+27 sep  
+    min of an array 
+    num of prime number in an array
