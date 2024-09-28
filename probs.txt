@@ -71,4 +71,33 @@
 
 27 sep  
     min of an array 
-    num of prime number in an array
+    num of prime number in an array 
+    a b c d 
+    a b c d 
+    a b c d 
+    a b c d 
+
+    a b c d 
+    e f g h 
+    i j k l 
+    m n o p 
+
+    01 03 05
+    07 09 11
+    13 15 17
+
+14 sep 
+    getSub ( - ), getProd ( * )
+
+17 sep
+    isPrime for -ve input 
+
+23 sep  
+    product of all elements in an float array  
+
+25 sep  
+    number of odd elems in an arr 
+
+27 sep  
+    min of an array 
+    num of prime number in an array 
