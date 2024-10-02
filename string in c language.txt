@@ -1,0 +1,28 @@
+what is string?
+    group of character are known as string. for example your name,surname,address,city
+
+    in c language string is always end with null \0
+
+    c language has no data type for string.
+
+    to store string we have to create and use 1 dimensional array of character.
+
+    example of how to create string 
+    char name[32];
+
+    how to take input in string 
+    printf("Enter your name");
+    scanf("%s",name); //must not give space in input else string will terminate by space. 
+
+    how to display string 
+    printf(" name = %s",name);
+
+    char fullname[64];
+
+    printf("Enter your fullname");
+    gets(fullname); //gets function is used to accept strign with space.
+
+    another way to print string 
+    puts(fullname);
+
+    //to use gets and puts function we need to include string.h header file in program.

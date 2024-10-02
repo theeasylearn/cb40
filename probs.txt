@@ -101,3 +101,12 @@
 27 sep  
     min of an array 
     num of prime number in an array 
+
+02 oct 
+    write a c program to copy one string into another string 
+    write a c program to reverse given string 
+    write a c program to count vowels in given string 
+    write a c program to findout whether given string is palindrome or not. .
+        madam = madam 
+        dad = dad 
+        mom = mom 
